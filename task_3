@@ -1,0 +1,8 @@
+name = str(input("Enter your name "))
+sername = str(input("Enter your sername "))
+second_name = str(input("Enter your second_name "))
+def print_initials(name, sername, second_name):
+  print(name[0]+". " + sername[0] + ". " + second_name[0] + ".")
+
+
+print_initials(name, sername, second_name)
