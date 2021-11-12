@@ -1,0 +1,11 @@
+def func(s, n):
+  d = []
+  for i in s:
+    if i > n:
+      d.append(i)
+  return d
+
+a = int(input("введите n "))
+b = [1, 2, 3, 4, 5, 6]
+c = func(b, a)
+print(c)
